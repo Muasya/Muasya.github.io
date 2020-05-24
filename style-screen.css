@@ -1,0 +1,259 @@
+body{
+    margin: 0px;
+    border: 0px;
+    height: auto;
+    /* background-color:rgb(51, 145, 253); */
+}
+.all_screen{
+    width: auto;
+    height: auto;
+    background-image: url(./files/u6A3JR1Qk2I0MNeoD.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.screen{
+    max-height: 60vh;
+    min-height: 600px;
+    background-color:rgba(71, 126, 108, 0.644);
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color:rgba(255, 255, 255, 0.596);
+    box-shadow: black;
+    /* border-bottom: 3px solid rgb(28, 145, 255); */
+}
+.logo_space{
+    position: relative;
+    width: 40%;
+    /* height: 100px; */
+    /* background-image: linear-gradient(-90deg, rgba(255, 255, 255, 0.061) 0%, rgba(255, 255, 255, 0.425) 50%, rgb(255, 255, 255) 100%); */
+
+}
+.nav_area{
+    padding-top: 20px;
+    position: relative;
+    height: 100px;
+    width: 58%;
+    float: right;
+    margin: 0px;
+    
+}
+.nav_area .ul{
+    float: right;
+    margin-right: 10%;
+}
+.nav_area .ul ul li {
+    list-style-type: none;
+    float: left;
+    margin-left: 25px;
+    font-size: 1.2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    /* font-weight: 600; */
+    
+}
+.nav_area .ul ul li:hover{
+    color: rgb(13, 109, 101);
+    cursor: pointer;
+}
+.logo{
+    margin: 0px;
+    height: 100%;
+    width: 100px;
+    float: left;
+}
+.logo_word a{
+    float: left;
+    color: rgb(26, 153, 142);
+    font-weight: 600;
+    font-size: 2.5em;
+    text-shadow: rgb(19, 44, 44);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 23px;
+    text-decoration: none;
+
+}
+.screen_content{
+    margin: 30px auto;
+    width: 100%;
+    height: 400px;
+
+}
+.head_word{
+    height: 20%;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 2.8em;
+    font-weight: 600;
+    padding-top: 30px;
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(12, 41, 46);
+}
+.upper_info{
+    height: 80%;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.9em;
+    font-weight: 600;
+    padding-top: 50px;
+    color: rgb(12, 41, 46);
+}
+.welcome{
+    background-color: aquamarine;
+    width: 90%;
+    height: 400px;
+    margin: 0px auto;
+    margin-top: -30px;
+    background-image: url(./files/note.JPG);
+    background-repeat: repeat-y;
+    box-shadow: 0 2px 5px 2px rgba(19, 32, 42, 0.287);
+    margin-bottom: 100px;
+}
+.welcome_note{
+    /* padding-left: 10px; */
+    float: left;
+    width: 50%;
+    margin: 0px;
+    border: 0px;
+    height: 100%;
+    overflow: hidden;
+}
+.one_text{
+    position: relative;
+    padding-left: 70px;
+    font-weight:800;
+    margin-top: 50px;
+    font-size: 1.8em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.two_text{
+    position: relative;
+    padding-left: 70px;
+    font-weight: 500;
+    margin-top: 50px;
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.action_order{
+    position: relative;
+    margin-left: 70px;
+    font-weight: 500;
+    margin-top: 50px;
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid rgb(32, 208, 194);
+    border-radius: 25px;
+    height: 42px;
+    padding-top: 10px;
+    text-align: center;
+    width: 200px;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+a .action_order{
+    text-decoration: none;
+    color: black;
+}
+.action_order:hover{
+    color:rgb(25, 59, 59);
+    font-weight: 600;
+    background-color: rgb(32, 208, 194);
+    cursor: pointer;
+}
+.welcomepic{
+    float: left;
+    width: 50%;
+    height: 100%;
+    margin: 0px;
+    border: 0px;
+    /* background-image: url(./files/only-writters.png);
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+
+.orderNow{
+    margin: 50px auto;
+    width: 100%;
+    height: auto;
+}
+.social_title{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    text-decoration: overline;
+}
+.social_types{
+    width: 320px;
+    height: 50px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.fb, .linkedin, .insta{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 40px;
+    /* background-color: blue; */
+}
+.twiter{
+    width: 50px;
+    height: 50px;
+    float: left;
+    /* margin-right: 40px; */
+    /* background-color: blue; */
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(46, 53, 50);
+    text-align:center;
+    padding-top: 30px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.whatsapp_butt{
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: rgb(71, 255, 111);
+    bottom: 10px;
+    right: 10px;
+    box-shadow: 3px 2px 5px 2px rgba(19, 32, 42, 0.287);
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,125 @@
+@media (max-width:950px) {
+
+
+    .logo_space{
+        position: relative;
+        width: 100%;
+        height: 50px;
+        overflow: hidden;
+    }
+    .nav_area{
+        overflow: hidden;
+        padding-top: 0px;
+        position: relative;
+        height: 50px;
+        width: 100%;
+        /* float: right; */
+        margin: 0px;
+        
+    }
+    .ul{
+        padding: 0px;
+        height: 50px;
+    }
+    .nav_area .ul{
+        text-align: left;
+        float: center;
+        margin-right: 0%;
+    }
+    .nav_area .ul ul li {
+        list-style-type: none;
+        float: left;
+        margin-left: 0px;
+        font-size: 0.8em;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-decoration: underline;
+        /* font-weight: 600; */
+        width: 25vw;
+        
+    }
+    .logo{
+        margin: 0px;
+        height: 100%;
+        width: 50px;
+        float: left;
+    }
+    .logo_word a{
+        float: left;
+        color: rgb(26, 153, 142);
+        font-weight: 600;
+        font-size: 2.0em;
+        text-shadow: rgb(19, 44, 44);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        padding-left: 10px;
+        padding-top: 3px;
+        text-decoration: none;
+    
+    }
+
+    .head_word{
+        height: 20%;
+        text-align: center;
+        margin: 0px auto;
+        font-size: 2.5em;
+        font-weight: 600;
+        padding-top: 30px;
+        text-decoration: underline;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: rgb(12, 41, 46);
+    }
+    .upper_info{
+        height: 80%;
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 1.5em;
+        font-weight: 600;
+        padding-top: 50px;
+        color: rgb(12, 41, 46);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .welcome{
+        width: 100%;
+        background-image: none;
+        height: auto;
+    }
+    .welcome_note{
+        /* padding-left: 10px; */
+        float: left;
+        width: 100%;
+        margin: 0px;
+        border: 0px;
+        height: 450px;
+        overflow: hidden;
+    }
+    .welcomepic{
+        float: left;
+        width: 100%;
+        height: 300px;
+        margin: 0px;
+        border: 0px;
+        margin-bottom: 40px;
+        /* background-image: url(./files/only-writters.png);
+        background-repeat: no-repeat;
+        background-position: center; */
+    }
+
+
+
+
+
+
+}
