@@ -55,7 +55,24 @@
         padding-top: 3px;
         text-decoration: none;
     
+
+        
     }
+
+
+
+    .service{
+        margin-left: 2%;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        margin-right: 2%;
+        background-image: none;
+    }
+
+
+
+
 
     .head_word{
         height: 20%;

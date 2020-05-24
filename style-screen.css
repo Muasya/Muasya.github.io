@@ -156,6 +156,34 @@ body{
 }
 a {
     text-decoration: none;
+    color: black;
+}
+.service{
+    margin-left: 5%;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    margin-right: 5%;
+    background-image: url(./files/only-writters.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+.services_head{
+    font-size: 1.8em;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(40, 76, 90);
+}
+.services_list{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+    line-height: 40px;
+    
+}
+.services_list ul li{
+    list-style-type: square;
+    font-size: 1.3em;
 }
 a .action_order{
     text-decoration: none;
